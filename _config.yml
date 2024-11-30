@@ -58,4 +58,3 @@ plugins:
 minima:
   date_format: "%Y-%m-%d %H:%M"
   skin: auto
-timezone: Asia/Shanghai
