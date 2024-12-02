@@ -62,4 +62,12 @@ minima:
 timezone: Asia/Shanghai
 
 header_pages:
-  # - about.md
+  - about.md
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"

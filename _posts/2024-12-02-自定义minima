@@ -1,0 +1,10 @@
+---
+title:  "自定义minima"
+date:   2024-12-02 15:31:10 +0800
+---
+
+## 隐藏页脚
+
+从`minima:v2.5.1`中获取GitHub Pages默认部署配置文件`_layouts/default.html`,然后注释`{%- include footer.html -%}`。
+
+引自：[How to delete header?](https://github.com/jekyll/minima/issues/805)

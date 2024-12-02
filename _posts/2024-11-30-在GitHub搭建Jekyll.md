@@ -2,7 +2,6 @@
 layout: post
 title:  "在GitHub搭建Jekyll"
 date:   2024-11-30 18:45:58 +0800
-categories: jekyll update
 ---
 
 ## 创建GitHub Pages站点
