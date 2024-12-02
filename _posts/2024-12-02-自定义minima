@@ -2,6 +2,7 @@
 layout: post
 title:  "自定义minima"
 date:   2024-12-02 15:31:10 +0800
+categories: jekyll
 ---
 
 ## 隐藏页脚
