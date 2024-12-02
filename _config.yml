@@ -57,7 +57,6 @@ plugins:
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%Y-%m-%d %H:%M"
-  skin: dark
 
 timezone: Asia/Shanghai
 
@@ -68,6 +67,6 @@ defaults:
   -
     scope:
       path: "_posts"
-      type: "posts"
+      type: "post"
     values:
       layout: "post"
