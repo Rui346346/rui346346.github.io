@@ -63,10 +63,10 @@ timezone: Asia/Shanghai
 header_pages:
   - about.md
 
-defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "post"
-    values:
-      layout: "post"
+# defaults:
+#   -
+#     scope:
+#       path: "_posts"
+#       type: "post"
+#     values:
+#       layout: "post"
