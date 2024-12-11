@@ -73,4 +73,4 @@ timezone: Asia/Shanghai
 
 
 include:
-  - /cite/如何引用文章.md
+  - cite/如何引用文章.md
