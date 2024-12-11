@@ -1,22 +1,22 @@
 .annotation {
-  display: inline-block;
+  display: block;
   background-color: #f0f0f0;
   border: 1px solid #ccc;
-  padding: 5px;
-  margin-left: 10px;
+  padding: 10px;
+  margin-top: 10px;
   font-size: 0.9em;
   color: #333;
   border-radius: 5px;
   position: relative;
+  width: fit-content;
 }
 
-.annotation::after {
+.annotation::before {
   content: "";
   position: absolute;
-  top: 50%;
-  left: -10px;
-  margin-top: -5px;
-  border-width: 5px;
+  top: -10px;
+  left: 20px;
+  border-width: 10px;
   border-style: solid;
-  border-color: transparent #f0f0f0 transparent transparent;
+  border-color: transparent transparent #f0f0f0 transparent;
 }
