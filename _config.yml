@@ -70,3 +70,7 @@ timezone: Asia/Shanghai
 #       type: "post"
 #     values:
 #       layout: "post"
+
+
+include:
+  - 如何引用文章.md
