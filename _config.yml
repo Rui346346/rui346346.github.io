@@ -76,6 +76,6 @@ include:
   - cite/article.md
 
 
-markdown: kramdown
-kramdown:
-  input: GFM
+# markdown: kramdown
+# kramdown:
+#   input: GFM

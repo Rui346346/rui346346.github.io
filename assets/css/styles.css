@@ -1,22 +1,21 @@
-.annotation {
-  display: block;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+.annotation-sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ccc;
   padding: 10px;
-  margin-top: 10px;
-  font-size: 0.9em;
-  color: #333;
-  border-radius: 5px;
-  position: relative;
-  width: fit-content;
+  overflow-y: auto;
+  display: none; /* 初始状态隐藏 */
 }
 
-.annotation::before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: 20px;
-  border-width: 10px;
-  border-style: solid;
-  border-color: transparent transparent #f0f0f0 transparent;
+.annotation-item {
+  margin-bottom: 10px;
+}
+
+.annotation-target {
+  cursor: pointer;
+  color: blue; /* 批注标记的颜色 */
 }

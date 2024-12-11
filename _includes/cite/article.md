@@ -1,7 +1,8 @@
 
 # 引用文章
 
-要在引用的文章中对某句话进行批注，<span class="annotation">这是批注内容123</span>可以使用HTML标签来实现。以下是一个示例：
+要在引用的文章中对某句话进行批注，<p class="annotation-target" data-comment="这是批注内容。">这是一段需要批注的文字。</p>
+可以使用HTML标签来实现。以下是一个示例：
 
 1. **创建引用文章的Markdown文件**：
    - 将你想引用的文章内容保存为一个Markdown文件。例如，将文章保存为`article.md`。
