@@ -74,3 +74,8 @@ timezone: Asia/Shanghai
 
 include:
   - cite/article.md
+
+
+markdown: kramdown
+kramdown:
+  input: GFM

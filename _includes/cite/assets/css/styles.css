@@ -1,0 +1,10 @@
+.annotation {
+    display: inline-block;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: #333;
+  }
+  
