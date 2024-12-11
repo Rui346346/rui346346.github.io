@@ -70,12 +70,3 @@ timezone: Asia/Shanghai
 #       type: "post"
 #     values:
 #       layout: "post"
-
-
-include:
-  - cite/article.md
-
-
-# markdown: kramdown
-# kramdown:
-#   input: GFM
